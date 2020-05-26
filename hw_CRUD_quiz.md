@@ -38,7 +38,8 @@ DELETE FROM properties;
 * First we add the `id` member in the `initialize()` block
 * The assignment is done inside the `save()` method
 * We use the following ```ruby 
-@id = db.exec_prepared("save", values)[0]["id"].to_i ``` for the assignment
+@id = db.exec_prepared("save", values)[0]["id"].to_i ``` 
+for the assignment
 
 ### Q6. Why do we put a guard (an `if` clause) on the `@id` attribute in the constructor?
 
